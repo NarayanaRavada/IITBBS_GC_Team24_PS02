@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <nav className="nav">
-            <div>DISCUSSION PORTAL</div>
+            <div>DISCUSSION FORUM</div>
             <button>LOGIN</button>
         </nav>
     )

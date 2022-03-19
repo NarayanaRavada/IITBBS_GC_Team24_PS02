@@ -17,6 +17,12 @@ function App() {
       <Navbar />
       <div className="contents">
         <Sidebar />
+        <div className="discussionContainer" >
+          <Disscussion />
+          <Disscussion />
+          <Disscussion />
+          <Disscussion />
+        </div>
       </div>
     </div>
   );
