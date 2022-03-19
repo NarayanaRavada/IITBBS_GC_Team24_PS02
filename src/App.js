@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./CSS/Style.css"
 import DiscussionPage from "./Components/DiscussionPage";
+import AddDiscussionPage from "./Components/AddDiscussionPage";
 function App() {
   const topics = {
     "6239EL245FADF":{
@@ -77,7 +78,18 @@ function App() {
   };
 
   return (
-    <Disscussion Topic={topics["RPFALKDJ31415"]}></Disscussion>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="contents">
+          <Sidebar />
+          <Routes>
+            <Route path="/" element={ <DiscussionPage /> }/>
+            <Route path="/AddDiscussion" element={<AddDiscussionPage />}/>
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
   // return (
   //   <Router>

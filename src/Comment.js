@@ -57,7 +57,7 @@ const Comment = (props) => {
               <Box sx={{mr:"5px"}}>
 
               <Button variant="outlined" onClick={onToggleSeeReply}>
-                {!commentvisible && "See Replies"}{" "}
+                {!commentvisible && "See Replies"}
                 {commentvisible && "Hide Replies"}
               </Button>
               </Box>

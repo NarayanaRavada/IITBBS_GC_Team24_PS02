@@ -1,18 +1,22 @@
-import { Fab } from '@mui/material'
-import { grey } from '@mui/material/colors'
+
 import React from 'react'
 import Disscussion from '../Discussion'
+import AddButton from './AddButton'
 
-
+import '../CSS/DiscussionPage.css'
 
 const DiscussionPage = () => {
+
+
     return (
         <div className="discussionContainer" >
             <Disscussion />
             <Disscussion />
             <Disscussion />
             <Disscussion />
-            <Fab aria-label="add"/>
+
+            <AddButton />
+
         </div>
     )
 }

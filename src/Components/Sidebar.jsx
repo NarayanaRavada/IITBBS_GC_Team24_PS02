@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SidebarLinks from './SidebarLinks'
 import TagButton from './TagButton'
 
-
+import '../CSS/Sidebar.css'
 
 const Sidebar = () => {
 
