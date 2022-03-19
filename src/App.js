@@ -1,11 +1,18 @@
-import { ThemeProvider } from "@mui/material";
 import React from "react";
+import Post from "./Post";
 import Disscussion from "./Discussion";
-import theme from "./Theme";
-import "./App.css"
+import Sidebar from "./Components/Sidebar"
+// import "./App.css"
+import "./Components/Style.css"
+import Navbar from "./Components/Navbar";
+import Content from "./Content";
 function App() {
   return (
-      <Disscussion/>
+    <React.Fragment>
+      <div></div>
+      <Navbar></Navbar>
+            <Content/>
+    </React.Fragment>
   );
 }
 

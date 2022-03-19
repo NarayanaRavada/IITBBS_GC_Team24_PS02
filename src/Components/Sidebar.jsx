@@ -3,7 +3,11 @@ import SidbarLinks from './SidbarLinks'
 
 const Sidebar = () => {
     return (
-        <div className="sideBar">
+        <div className="sideBar" style={{position:"fixed"}}>
+            <SidbarLinks text="test"/>
+            <SidbarLinks text="test"/>
+            <SidbarLinks text="test"/>
+            <SidbarLinks text="test"/>
             <SidbarLinks text="test"/>
             <SidbarLinks text="test"/>
             <SidbarLinks text="test"/>
