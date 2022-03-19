@@ -20,7 +20,7 @@ const Sidebar = () => {
     const [tags, setTags] = useState([
         {
             text: 'Tag1',
-            isActive: false
+            isActive: true
         },
         {
             text: 'Tag2',
@@ -41,7 +41,7 @@ const Sidebar = () => {
 
     
     links.forEach(element => {
-        linkComponents.push(<SidebarLinks text={element.text} isActive={element.isActive}/>)
+        linkComponents.push(<SidebarLinks text={element.text} isActive={element.isActive} links={{get: links, set: setLinks}}/>)
     });
 
     tags.forEach(element => {
