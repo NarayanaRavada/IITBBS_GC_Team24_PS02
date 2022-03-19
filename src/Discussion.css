@@ -15,9 +15,21 @@
     flex-direction: column;
     padding: 20px;
     padding-left: 40px;
-    border: 1px solid black;
+    border-left: 2px solid blueviolet;
     border-radius: 8px;
-    box-shadow: 4px;
+    box-shadow: none;
+    background-color: #faebd7;
+}
+.CommentContainer{
+    position: relative;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    padding: 0px 20px;
+    padding-left: 20px;
+    border-left: 2px solid blueviolet;
+    border-radius: 8px;
+    box-shadow: none;
     background-color: #faebd7;
 }
 
@@ -58,8 +70,11 @@
     font-size: 1.5em;
     padding: 10px;
 }
-.footerbuttons{
-    padding: 10px;
-    display: flex;
+.commentbuttons{
+    margin-top: 10px;
+    display:flex;
     flex-direction: row-reverse;
 }
+/* .commentbuttons *{
+    margin: 3px;
+} */

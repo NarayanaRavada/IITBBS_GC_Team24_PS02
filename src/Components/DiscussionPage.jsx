@@ -12,7 +12,6 @@ const DiscussionPage = () => {
             <Disscussion />
             <Disscussion />
             <Disscussion />
-
             <Fab aria-label="add"/>
         </div>
     )
