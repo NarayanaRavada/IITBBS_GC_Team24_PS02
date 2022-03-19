@@ -1,0 +1,98 @@
+/* 
+Side Bar
+*/
+.sideBar{
+    position: fixed;
+    top: 0px;
+    padding-top: var(--navHeight);
+    background-color: rgb(245, 245, 245);
+    border-right: 1px solid rgb(156, 156, 156);
+    height: 100%;
+    width: var(--sideBarWidth);
+    z-index: 1;
+  }
+  
+  /* 
+  Links
+  */
+  
+  .sideBarLink{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    border: 2px solid transparent;
+  }
+  
+  .sideBarLink:hover{
+    border-bottom: 2px solid black;
+  }
+  
+  .sideBarLinkSelected{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+  }
+  
+  /* 
+  Divider
+  */
+  
+  .divider{
+    background-color: rgb(121, 121, 121);
+    height: 3px;
+    border-radius: 2px;
+    margin: 50px 30px;
+  }
+  
+  /* 
+  Tags
+  */
+  
+  .tags{
+
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  
+  .tagButtonHolder{
+    margin: 5px 10px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(65px, 65px)) ;
+  }
+  
+  .tagBtn{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2px 8px;
+
+    font-size: 16px;
+  }
+  
+  .tagBtn:hover{
+    color: white;
+    background-color: black;
+  }
+  
+  .tagBtnSelected{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 8px;
+    font-size: 16px;
+  }

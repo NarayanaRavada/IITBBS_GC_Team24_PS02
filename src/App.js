@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./CSS/Style.css"
 import DiscussionPage from "./Components/DiscussionPage";
+import AddDiscussionPage from "./Components/AddDiscussionPage";
 function App() {
 
   // return (
@@ -24,11 +25,7 @@ function App() {
           <Sidebar />
           <Routes>
             <Route path="/" element={ <DiscussionPage /> }/>
-            <Route path="/Hello" element={
-              <div className="discussionContainer" >
-              Hello
-            </div>
-            }/>
+            <Route path="/AddDiscussion" element={<AddDiscussionPage />}/>
           </Routes>
         </div>
       </div>

@@ -1,0 +1,12 @@
+/* 
+Discussion
+*/
+
+.discussionContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: var(--sideBarWidth);
+    margin-top: var(--navHeight);
+  }

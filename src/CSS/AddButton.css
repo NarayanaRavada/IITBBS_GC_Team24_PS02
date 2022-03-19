@@ -1,0 +1,20 @@
+/* 
+Add Button
+*/
+
+.addBtn{
+    width: var(--addBtnSize);
+    height: var(--addBtnSize);
+    border: none;
+    border-radius: 50%;
+    background-color: var(--buttonDark);
+    box-shadow: var(--shadow);
+  
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+  
+  .addBtn:hover{
+    background-color: var(--buttonDarkHighlight);
+  }
